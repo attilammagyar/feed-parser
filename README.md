@@ -76,3 +76,22 @@ The above script will output:
      2. URL: http://www.example.com/second
      2. Timestamp: 2013-03-18 09:42:12
      2. Body: Jumps over the lazy dog
+
+Installation
+------------
+
+Installation is possible via [Composer][composer]. Create a file named
+`composer.json` in your project directory with the following contents:
+
+  [composer]: http://getcomposer.org/
+
+    {
+        "require": {
+            "athoshun/feed-parser": "1.0.*"
+        }
+    }
+
+Then as a normal user, issue the following commands:
+
+    $ curl http://getcomposer.org/installer | php
+    $ php composer.phar install
